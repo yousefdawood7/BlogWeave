@@ -27,7 +27,7 @@ export default function CreatePost() {
             e.preventDefault();
           }}
         >
-          <div className="flex flex-col gap-2.5">
+          <p className="flex flex-col gap-2.5">
             <Label htmlFor={post}>Title</Label>
             <Input
               type="text"
@@ -35,7 +35,7 @@ export default function CreatePost() {
               name="title"
               placeholder="Enter post title"
             />
-          </div>
+          </p>
         </form>
       </CardContent>
       <CardFooter>
