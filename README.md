@@ -34,6 +34,10 @@ blog-weave/
   comments/     # Comments microservice
 ```
 
+## Architecture
+
+![Services Architecture](docs/architecture/services.png)
+
 ## Services
 
 ### Posts service (`posts/`)
